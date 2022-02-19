@@ -3,24 +3,24 @@
 
 ;REGISTER TO REGISTER
 
-SYNTAX: 
-    MOV DESINTION_REGISTER, SOURCE
+;SYNTAX: 
+;    MOV DESINTION_REGISTER, SOURCE
 
 MOV A, B    ;Moves the content of the B register to A register
 
 
 ;MEMORY TO REGISTER
 
-SYNTAX:
-    MOV DESTINATION_REGISTER, M     here, m denotes data of address stored int the HL register pair.
+;SYNTAX:
+;    MOV DESTINATION_REGISTER, M     here, m denotes data of address stored int the HL register pair.
 
 MOV A, M    ;Moves the conent of the address stored in the HL pair.
 
 
 ;REGiSTER TO MEMORY
 
-SYNTAX: 
-    MOV M, SOURCE_REGISTER
+;SYNTAX: 
+;    MOV M, SOURCE_REGISTER
 
 MOV M, A    ;Moves the content accumulator to the memory address stored in HL pair.
 

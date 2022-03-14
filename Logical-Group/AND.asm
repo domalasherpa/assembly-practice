@@ -23,7 +23,6 @@ mvi m, 05h
 ana m
 
 
-
 ;AND immediate data with accumlator
 ;syntax ANI data
 
